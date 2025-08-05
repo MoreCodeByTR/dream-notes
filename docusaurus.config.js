@@ -14,7 +14,7 @@ const config = {
   url: 'https://morecodebytr.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/draem-notes/',
+  baseUrl: '/dream-notes/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -40,12 +40,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: ({ versionDocsDirPath, docPath }) =>
-            `https://github.com/MoreCodeByTR/draem-notes/tree/master/${versionDocsDirPath}/${docPath}`,
+            `https://github.com/MoreCodeByTR/dream-notes/tree/master/${versionDocsDirPath}/${docPath}`,
         },
         blog: {
           blogSidebarTitle: '最近',
           showReadingTime: true,
-          editUrl: 'https://github.com/MoreCodeByTR/draem-notes/tree/master',
+          editUrl: 'https://github.com/MoreCodeByTR/dream-notes/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,7 +75,7 @@ const config = {
             label: '指南',
           },
           {
-            href: 'https://github.com/MoreCodeByTR/draem-notes',
+            href: 'https://github.com/MoreCodeByTR/dream-notes',
             label: 'GitHub',
             position: 'right',
           },
